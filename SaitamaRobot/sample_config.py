@@ -14,10 +14,10 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 3025279  # integer value, dont use ""
+    API_ID = "3025279"  # integer value, dont use ""
     API_HASH = "f60ee5bfe9bae0539c79cf411262edc3"
     TOKEN = "1875011948:AAEC2H6BqYogG13Cx23ph8i4-DjREZYUdOs"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID =  1309080477 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID =  "1309080477" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "stormshadow3000"
     SUPPORT_CHAT = "Morijinopsupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
