@@ -287,26 +287,26 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'Founding Titan'."
+        text += "\n\nThe Person is himself 'Jaecheondaeseong'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Ackerman Clan'."
+        text += "\n\nThis user is one of 'The key'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Titan Shifter'."
+        text += "\n\nThis user is a 'Bishop'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Royal Blood'."
+        text += "\n\nThis user is a 'Commisioner'."
         disaster_level_present = True 
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Scout'."
+        text += "\n\nThis user is a user of 'charyeok'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Garrison'."
+        text += "\n\nThis user is a 'Fighter'."
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/foundingtitanupdates/12">?</a>]'.format(
+        text += ' [<a href="https://t.me/Jin_mori_updates/4">?</a>]'.format(
             bot.username,
         )
 
@@ -479,7 +479,7 @@ def set_about_bio(update: Update, context: CallbackContext):
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "Erm... yeah, I only trust Heroes Association to set my bio.",
+                "Erm... yeah, I only trust The keys to set my bio.",
             )
             return
 
