@@ -199,7 +199,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Founding Titan Just Joined the group! Stay Alert!", reply_to_message_id=reply,
+                    "The god Himeself have Joined the group! Stay Alert!", reply_to_message_id=reply,
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -211,7 +211,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Be Cool! A member of the Ackerman Clan just joined the group!",
+                    "Be Cool! WE are now in the presence of one of the keys !",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -224,7 +224,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Whoa! a Titan-Shifter just joined the group! Stay alert!",
+                    "Whoa! A Bishop just joined the group! Stay alert!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -237,7 +237,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Someone with Royal Blood just joined the group! stay alert!",
+                    "A commissioner just joined the group! stay alert!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -250,7 +250,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Shinzou Sasageyo! A Scout Just joined the group!", reply_to_message_id=reply,
+                    "A Charyeok user from GOHS Just joined the group!", reply_to_message_id=reply,
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -262,7 +262,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Tigers
             elif new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "A member of Garrison Regiment just joined the group!", reply_to_message_id=reply,
+                    "A Fighter from GOHS just joined the group!", reply_to_message_id=reply,
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -566,14 +566,14 @@ def left_member(update: Update, context: CallbackContext):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oi! Armin! He left..", reply_to_message_id=reply,
+                    "The God has left the group", reply_to_message_id=reply,
                 )
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Ackerman Clan Meetings!",
+                    "See you later at the The 6 association!",
                     reply_to_message_id=reply,
                 )
                 return
