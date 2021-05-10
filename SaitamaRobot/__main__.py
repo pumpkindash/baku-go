@@ -78,7 +78,7 @@ Built by weebs for weebs, I specialize in managing anime eccentric communities,D
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Titan-Shifting Group Management Bot and help admins manage their groups with My Titan Powers! Have a look at the following for an idea of some of \
+I am the great monkey king mori jin i will help those ppl who are in need for a managment bot to manage their channels and groups  \
 the things I can help you with.
 
 *Main* commands available:
@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/e82c53752a1e30d25f987.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/852b714cef9eb137942c5.jpg"
 
 DONATE_STRING = """Nah, No Need To Donate 😉."""
 
@@ -225,27 +225,27 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/Morijinopsupport",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/foundingtitanupdates/",
+                                url="https://t.me/Jin_mori_updates/",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting Started",
-                                url="https://t.me/foundingtitanupdates/4",
+                                url="https://t.me/Jin_mori_updates/3",
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/sasukeuchiha912/FoundingTitanRobot",
+                                url="https://github.com/stormshadow3000/Jin-mori",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="☠️ Anime Chat Group",
-                                url="https://t.me/otaku_regiment/",
+                                url="https://t.me/nexusgroups/",
                             ),
                         ],
                     ],
